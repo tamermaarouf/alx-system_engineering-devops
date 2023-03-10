@@ -7,3 +7,6 @@
 ### Write a script that prints all the groups the current user is part of.
 ## 3. New owner
 ### changes the owner of the file
+
+## 4. Empty!
+### creates an empty file called hello
