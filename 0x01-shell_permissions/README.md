@@ -10,3 +10,6 @@
 
 ## 4. Empty!
 ### creates an empty file called hello
+
+## 5. Execute
+### adds execute permission to the owner of the file hello.
