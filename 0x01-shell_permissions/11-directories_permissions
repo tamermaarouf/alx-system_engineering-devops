@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R +x $(ls -p | grep /)
+chmod -R a+X $(ls -p | grep /)
