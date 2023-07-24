@@ -1,2 +1,2 @@
 #!/bin/bash
-chwon school: hello
+chwon -R vincent:staff
