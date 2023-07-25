@@ -1,0 +1,13 @@
+total 44
+drwxr-xr-x 2 tamermaarouf tamermaarouf 4096 Jul 25 11:12 .
+drwxr-xr-x 6 tamermaarouf tamermaarouf 4096 Jul 25 10:59 ..
+-rwxr--r-- 1 tamermaarouf tamermaarouf   32 Jul 24 21:23 0-hello_world
+-rwxr--r-- 1 tamermaarouf tamermaarouf   28 Jul 24 21:28 1-confused_smiley
+-rwxr--r-- 1 tamermaarouf tamermaarouf   28 Jul 24 21:36 2-hellofile
+-rwxr--r-- 1 tamermaarouf tamermaarouf   39 Jul 24 21:55 3-twofiles
+-rwxr--r-- 1 tamermaarouf tamermaarouf   29 Jul 24 22:07 4-lastlines
+-rwxr--r-- 1 tamermaarouf tamermaarouf   29 Jul 24 22:14 5-firstlines
+-rwxr--r-- 1 tamermaarouf tamermaarouf   40 Jul 25 11:05 6-third_line
+-rwxr--r-- 1 tamermaarouf tamermaarouf   78 Jul 25 11:11 7-file
+-rw-r--r-- 1 tamermaarouf tamermaarouf    0 Jul 25 11:12 ls_cwd_content
+-rw-r--r-- 1 tamermaarouf tamermaarouf 1243 Jul 24 21:23 README.md
