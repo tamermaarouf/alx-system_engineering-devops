@@ -1,1 +1,1 @@
-Strace is your friend
+#Strace is your friend
