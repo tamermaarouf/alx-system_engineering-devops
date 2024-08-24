@@ -10,11 +10,11 @@ while [ $i -le 20 ]; do
 	echo "$i"
 	case "$i" in
 		4)
-			echo "bad luck from China";;
+			echo "bad luck from China" ;;
 		9)
-			echo "good luck from Japan";;
+			echo "good luck from Japan" ;;
 		17)
-			echo "bad luck from Italy";;
+			echo "bad luck from Italy" ;;
 	esac
 	i=$((i+1)); 
 done
