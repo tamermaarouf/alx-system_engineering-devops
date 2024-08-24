@@ -1,16 +1,18 @@
 #!/usr/bin/python3
 
-import requests
+"""Module for task 0"""
 
 def number_of_subscribers(subreddit):
     """Return the total number of subscribeson a given subreddit"""
     import requests
 
-    header={"User-Agent": "linux:0x16 api advanced v1"}
+    #header={"User-Agent": "linux:0x16 api advanced v1"}
 
     response = requests.get("https://www.reddit.com/r/{}/about.json"
-            .format(subreddit), headers=header, allow_redirects=False)
-    if response.status_code >= 400:
+            .format(subreddit),
+            headers={"User-Agent": "My-User-Agent"},
+            allow_redirects=False)
+    if response.status_code >= 300:
         return 0
     results = response.json().get("data")
     return results.get("subscribers")
