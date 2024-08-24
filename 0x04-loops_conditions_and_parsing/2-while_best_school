@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 
-i=0
-while ((i<=9))
-do
+x=0;
+while [ $x -le 9 ]; do	
 	echo "Best School"
-	((i++))
+	x=$((x+1)); 
 done
