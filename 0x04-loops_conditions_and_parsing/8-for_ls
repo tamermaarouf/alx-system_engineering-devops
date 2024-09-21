@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Write a Bash script that displays: The content of the current directory
 
-filename="$(ls | cut -d '-' -f 2)"
+filename="$(ls)"
 for file in "$filename"
 do
-	echo "$file"
+	echo "$file" | cut -d'-' -f2
 done
