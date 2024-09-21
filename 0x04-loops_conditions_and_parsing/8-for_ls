@@ -1,8 +1,8 @@
-#!/usr/bin/env bash
+ #!/usr/bin/env bash
 # Write a Bash script that displays: The content of the current directory
 
 filename="$(ls)"
-for file in "$filename"
+for file in *
 	do
 		echo "$file" | cut -d'-' -f2
 	done
