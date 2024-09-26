@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 # Write a Bash script that displays To infinity and beyond indefinitely. 
-kill 15519
+kill "$(ps -x | pgrep -f beyond)"
